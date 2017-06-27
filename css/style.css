@@ -1,0 +1,254 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent
+}
+
+body {
+  line-height: 1
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block
+}
+
+nav ul {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold
+}
+
+del {
+  text-decoration: line-through
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0
+}
+
+input,
+select {
+  vertical-align: middle
+}
+
+li {
+  list-style: none
+}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+body {
+  background: #000000;
+  color: #ffffff;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #ffffff;
+  outline: none;
+}
+
+.Nav {
+  margin: 0 auto;
+  width: 320px;
+}
+
+.Nav-list {
+  height: 40px;
+}
+
+.Nav-item {
+  display: inline-block;
+  padding: 10px;
+  transition: background ease-out 0.3s;
+}
+
+.Nav-item:hover {
+  background: #515151;
+}
+
+.Main {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Heading {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.Main-img {
+  width: 100%;
+  border: 1px solid #1e1e1e;
+}
+
+.Main-logo {
+  width: 270px;
+}
+
+.Main-text {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Footer {
+  text-align: right;
+  height: 30px;
+  color: #858585;
+  margin-top: 30px;
+  padding: 0 20px;
+  line-height: 30px;
+  font-size: 13px
+}
+
+@media (min-width: 768px) {
+  .Nav {
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .Main {
+    margin: 50px auto 0 auto;
+    width: 900px;
+  }
+  .Main-img {
+    margin-top: 50px;
+  }
+}
